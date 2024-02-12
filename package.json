@@ -1,0 +1,28 @@
+{
+  "name": "hono-jsx",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./jsx-runtime": {
+      "types": "./jsx-runtime.d.ts",
+      "default": "./jsx-runtime.js"
+    },
+    "./jsx-dev-runtime": {
+      "types": "./jsx-dev-runtime.d.ts",
+      "default": "./jsx-dev-runtime.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "jsx-runtime.js",
+    "jsx-runtime.d.ts",
+    "jsx-dev-runtime.js",
+    "jsx-dev-runtime.d.ts"
+  ],
+  "peerDependencies": {
+    "hono": "^4"
+  },
+  "devDependencies": {
+    "hono": "^4"
+  }
+}
